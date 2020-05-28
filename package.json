@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "gray-matter": "^4.0.2",
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.9.7"
   }
 }
