@@ -2,6 +2,18 @@
 
 > This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
+## Lesson Learned
+
+- Client-side navigation
+- Code splitting
+- Pre-fetching
+- Pre-rendering
+- Data fetching at build/request time
+- SWR
+- Dynamic Routes
+- API Routes
+- Deploy app on Vercel
+
 ## Quick Start
 
 ```bash
