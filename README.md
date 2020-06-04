@@ -2,6 +2,10 @@
 
 > This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
+<p align="center">
+    <img width="230" src="./public/undraw_next_js.svg">
+</p>
+
 ## Lesson Learned
 
 - Client-side navigation
