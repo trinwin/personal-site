@@ -1,12 +1,12 @@
-# Nextjs Blog
+# T r i n W i n
 
-> This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+> Personal Website In Progress 🛠
 
 <p align="center">
     <img width="230" src="./public/undraw_next_js.svg">
 </p>
 
-## Lesson Learned
+## Using
 
 - Client-side navigation
 - Code splitting

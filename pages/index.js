@@ -1,9 +1,9 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import Date from '../components/date';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
+import Head from "next/head";
+import Link from "next/link";
+import Date from "../components/date";
+import Layout, { siteTitle } from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import { getSortedPostsData } from "../lib/posts";
 
 export default function Home({ allPostsData }) {
   return (
@@ -19,15 +19,15 @@ export default function Home({ allPostsData }) {
           State University 📚.
         </p>
         <p>
-          📊 You check checkout my side projects on{' '}
+          📊 You check checkout my side projects on{" "}
           <a href="https://github.com/trinityng">Github</a>.
         </p>
         <p>
-          🙋🏻‍♀️ Feel free to connect with me on{' '}
+          🙋🏻‍♀️ Feel free to connect with me on{" "}
           <a href="https://www.linkedin.com/in/trinityng/">LinkedIn</a>.
         </p>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
     </Layout>
   );
 }
