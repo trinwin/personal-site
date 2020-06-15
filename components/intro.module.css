@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  max-width: 100rem;
+  padding: 0 1rem;
+  margin: 6rem;
+}
+
+.intro {
+  padding: 5rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 50rem;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro p {
+  padding-bottom: 4rem;
+}
+
+.name {
+  margin-top: 1rem;
+  font-size: 4rem;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #81b29a;
+}
+
+.roles {
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e07a5f;
+}
+
+.typed-cursor {
+  border-color: #81b29a;
+  opacity: 1;
+  animation: fade 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+}
+
+.image {
+  max-width: 200rem;
+  padding-left: 10rem;
+}
+
+.headerImage {
+  width: 6rem;
+  height: 6rem;
+}
+
+.headerHomeImage {
+  width: 8rem;
+  height: 8rem;
+}

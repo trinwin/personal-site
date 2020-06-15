@@ -50,3 +50,7 @@
 .lightText {
   color: #999;
 }
+
+.links a {
+  padding-right: 1rem;
+}
