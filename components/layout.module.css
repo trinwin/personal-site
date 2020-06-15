@@ -1,4 +1,5 @@
 .container {
+  display: flex;
   max-width: 36rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
@@ -8,6 +9,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.intro {
+  max-width: 20rem;
 }
 
 .headerImage {
